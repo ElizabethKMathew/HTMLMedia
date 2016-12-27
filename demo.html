@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MediaElement</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html" id="view-plugins">HTML Audio & HTML Video</a></li>
+                        <li><a href="" id="view-plugins">HTML Plugins</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-caption">
+            <h1 class="text-center">HTML5 Media</h1></div>
+    </header>
+    <div class="container">
+        <div class="row media-row">
+            <div id="view-audio" class="col-xs-12 col-md-6 text-center">
+                <h2>HTML Audio Example</h2>
+                <audio controls>
+                    <source src="assets/sample-audio.ogg" type="audio/ogg">
+                    <source src="assets/sample-audio.mp3" type="audio/mpeg"> Please <a href="assets/sample-audio.mp3" download>download</a> the audio file.
+                </audio>
+            </div>
+        </div>
+        <div class="row media-row text-center">
+            <div class="col-xs-12 media-container embed-pdf">
+                <object data="assets/BCtA_Membership-Eligibility-for-web.pdf" type="application/pdf" width="100%" height="100%">
+                    <p>Alternative text - include a link <a href="assets/BCtA_Membership-Eligibility-for-web.pdf">to the PDF!</a></p>
+                </object>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
