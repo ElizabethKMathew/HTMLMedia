@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MediaElement</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="" id="view-plugins">HTML Video & HTML YouTube</a></li>
+                        <li><a href="demo.html" id="view-plugins">HTML Audio & HTML Plugins</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-caption">
+            <h1 class="text-center">HTML5 Media</h1></div>
+    </header>
+    <div class="container">
+        <div class="row media-row">
+            <div id="view-video" class="col-xs-12 col-md-6 media-container text-center">
+                <h2>HTML Video Example</h2>
+                <video controls>
+                    <source src=http://techslides.com/demos/sample-videos/small.ogv type=video/ogg>
+                    <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> Your browser does not support HTML5 video.
+                </video>
+            </div>
+            <div id="youtube-video" class="col-xs-12 col-md-6 media-container text-center">
+                <h2>HTML YouTube Example</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aZ3piKtGmz4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
